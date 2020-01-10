@@ -30,8 +30,7 @@
                             </div>
                         <?php endif; ?>
                         </p>
-                        <p><?php the_excerpt(); ?></p>
-                        <a href="<?php the_permalink(); ?>" class="button">Read More</a>
+                        <p><?php the_content(); ?></p>
                     </article>
                 <?php endwhile; ?>
             <?php else : ?>
