@@ -213,3 +213,14 @@ footer.main-footer a {
     margin: 0;
     padding: 0;
 }
+
+.attachment-container {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #333;
+}
+
+.attachment-container img {
+    width: 100%;
+    height: auto;
+}
