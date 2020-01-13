@@ -69,6 +69,16 @@ header .h_right input[type="text"] {
     margin-top: 5px;
 }
 
+nav.nav li {
+    float: left;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+nav.nav a {
+    text-decoration: none;
+}
+
 nav.main-nav {
     height: 45px;
     overflow: hidden;
@@ -93,6 +103,34 @@ nav.main-nav a {
 
 nav.main-nav a:hover {
     color: #009acd;
+}
+
+.sub-nav {
+    margin-top: 10px;
+    float: right;
+    width: 300px;
+}
+
+.sub-nav ul {
+    float: right;
+}
+
+.sub-nav .parent-link {
+    font-weight: bold;
+    color: #000;
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #009ace
+}
+
+.sub-nav .parent-link a {
+    font-weight: bold;
+    color: #000;
+}
+
+.sub-nav .current_page_item {
+    font-weight: bold;
 }
 
 .content {
@@ -230,4 +268,9 @@ footer.main-footer a {
     border: 1px solid #ccc;
     padding: 8px;
     font-weight: bold;
+}
+
+/* Clearfix */
+.clr {
+    clear: both;
 }
