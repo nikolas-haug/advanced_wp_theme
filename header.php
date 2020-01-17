@@ -29,7 +29,8 @@
             <div class="container">
                 <?php 
                     $args = array(
-                        'theme_location' => 'primary'
+                        'theme_location' => 'primary',
+                        'menu_id' => 'primary-nav'
                     )
                 ?>
 
