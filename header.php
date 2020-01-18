@@ -18,7 +18,7 @@
                     <small><?php bloginfo('description'); ?></small>
                 </h1>
                 <div class="h_right">
-                    <form method="GET" action="<?php esc_url(site_url( )); ?>">
+                    <form method="GET" action="<?php echo esc_url(site_url( '/' )); ?>">
                         <input type="text" name="s" placeholder="Search...">
                     </form>
                 </div>

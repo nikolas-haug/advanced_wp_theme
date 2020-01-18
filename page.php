@@ -19,6 +19,9 @@
                     <div class="clr"></div>
                     <?php endif; ?>
                     <h2><?php the_title(); ?></h2>
+                    <div class="post-thumbnail">
+                        <?php the_post_thumbnail(); ?>
+                    </div>
                     <?php the_content(); ?>
                   </article>
                 <?php endwhile; ?>
